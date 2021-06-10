@@ -1,0 +1,10 @@
+{
+  "name": "config.ts",
+  "version": "1.0.0",
+  "description": "Type safe configuration service",
+  "main": "lib/index.js",
+  "repository": "https://github.com/mjsdevs/config.ts",
+  "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
+  "license": "MIT",
+  "private": false
+}
