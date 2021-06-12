@@ -7,7 +7,6 @@
   "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
   "license": "MIT",
   "types": "./lib/types.d.ts",
-  "private": false,
   "scripts": {
     "build": "tsc -p ."
   },
