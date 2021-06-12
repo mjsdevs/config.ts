@@ -1,5 +1,6 @@
 import { config, DotenvConfigOptions } from "dotenv";
-import { join } from "path/posix";
+import { join } from "path";
+import { exit } from "process";
 import { ConfigurationService } from "./ConfigurationService";
 import { ValidationFunction } from "./ValidationFunction";
 
@@ -24,6 +25,7 @@ export class ConfigurationServiceFactory<Environment> {
 
 		if (validation.isFailure) {
 			console.log(validation._error);
+			exit(-1);
 		}
 
 		return new ConfigurationService<Environment>(validation.value());
