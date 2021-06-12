@@ -1,6 +1,6 @@
 {
   "name": "@mjsdevs/config.ts",
-  "version": "1.2.0",
+  "version": "1.2.1-0",
   "description": "Type safe configuration service",
   "repository": "https://github.com/mjsdevs/config.ts",
   "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
