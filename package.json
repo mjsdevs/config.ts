@@ -6,7 +6,11 @@
   "repository": "https://github.com/mjsdevs/config.ts",
   "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
   "license": "MIT",
-  "types": "./lib/types.d.ts",
+  "types": "build/types.d.ts",
+  "exports": {
+    ".": "./build/index.js",
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "build": "tsc -p ."
   },
