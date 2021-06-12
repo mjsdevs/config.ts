@@ -8,6 +8,9 @@
   "license": "MIT",
   "types": "./lib/types.d.ts",
   "private": false,
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "jest": "^27.0.4",
