@@ -1,5 +1,5 @@
 {
-  "name": "config.ts",
+  "name": "@mjsdevs/config.ts",
   "version": "1.0.1-0",
   "description": "Type safe configuration service",
   "main": "lib/index.js",
@@ -8,6 +8,7 @@
   "license": "MIT",
   "types": "./lib/types.d.ts",
   "private": false,
+
   "scripts": {
     "build": "tsc -p ."
   },
