@@ -2,7 +2,7 @@
   "name": "@mjsdevs/config.ts",
   "version": "1.0.1-2",
   "description": "Type safe configuration service",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/mjsdevs/config.ts",
   "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
   "license": "MIT",
