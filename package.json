@@ -6,7 +6,7 @@
   "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
   "license": "MIT",
   "main": "build/index.js",
-  "types": "build/types.d.ts",
+  "types": "build/index.d.ts",
   "exports": {
     ".": "./build/index.js",
     "./package.json": "./package.json"
