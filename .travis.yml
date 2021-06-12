@@ -1,7 +1,13 @@
 language: node_js
 node_js:
 - '14'
+branches:
+  only:
+    - main
 deploy:
+  on:
+    tags: true
+  tag: next
   provider: npm
   email: jrmmendes@outlook.com
   api_key:
