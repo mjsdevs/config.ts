@@ -16,6 +16,7 @@
     "build": "tsc -p ."
   },
   "devDependencies": {
+    "@types/node": "^15.12.2",
     "jest": "^27.0.4",
     "nodemon": "^2.0.7",
     "rimraf": "^3.0.2",
