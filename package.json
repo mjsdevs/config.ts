@@ -2,20 +2,20 @@
   "name": "@mjsdevs/config.ts",
   "version": "1.0.1-4",
   "description": "Type safe configuration service",
-  "main": "build/index.js",
   "repository": "https://github.com/mjsdevs/config.ts",
   "author": "Jose Rommildo Mendes Junior <jrmmendes@outlook.com>",
   "license": "MIT",
+  "main": "build/index.js",
   "types": "build/types.d.ts",
   "exports": {
     ".": "./build/index.js",
     "./package.json": "./package.json"
   },
   "scripts": {
+    "prepublish": "tsc",
     "build": "tsc -p ."
   },
   "devDependencies": {
-    "@types/dotenv": "^8.2.0",
     "jest": "^27.0.4",
     "nodemon": "^2.0.7",
     "ts-jest": "^27.0.3",
