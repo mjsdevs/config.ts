@@ -27,8 +27,8 @@ export class Result<T> {
 		return new Result<U>(value);
 	}
 
-	static fail(error: string) {
-		return new Result(undefined, error);
+	static fail<U>(error: string) {
+		return new Result<U>(undefined, error);
 	}
 
 	value(): T {
