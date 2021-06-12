@@ -1,6 +1,6 @@
 {
   "name": "@mjsdevs/config.ts",
-  "version": "1.0.1-1",
+  "version": "1.0.1-2",
   "description": "Type safe configuration service",
   "main": "lib/index.js",
   "repository": "https://github.com/mjsdevs/config.ts",
